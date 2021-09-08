@@ -1,7 +1,7 @@
 # custom-provisioning-handler
-When JIT provisioning users, Identity Server will generate a random password when adding a user to the user store as it is mandatory to have a password in the user store manager level. According to the logic[1], the generated password is a random string whose length is 12. So if you have a password policy or regex rejecting the internally generated password it will cause an error when the user is added.
+The requirement is to provision the existing roles in the Key-cloak server to the APIM platform without one-to-one mapping, for the users(API-developers, APP-developers, and admins) who log in through the OIDC SSO flow via Key-cloak to the APIM portals.
 
-The steps to resolve this issue is documentated[2]. (Please refer the JIT Provisioning section). A custom provisioning handler needs to be implemented . This repository has has a simple custom provisioning handler which generates a random password.
+To achieve this . (Please refer the JIT Provisioning section). A custom provisioning handler needs to be implemented . This repository has has a simple custom provisioning handler which achieve this.
 
 # Build, Deploy & Run
 Build

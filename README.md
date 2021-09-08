@@ -1,7 +1,7 @@
 # custom-provisioning-handler
 The requirement is to provision the existing roles in the Key-cloak server to the APIM platform without one-to-one mapping, for the users(API-developers, APP-developers, and admins) who log in through the OIDC SSO flow via Key-cloak to the APIM portals.
 
-To achieve this . (Please refer the JIT Provisioning section). A custom provisioning handler needs to be implemented . This repository has has a simple custom provisioning handler which achieve this.
+To achieve this . (Please refer the JIT Provisioning section). A custom provisioning handler needs to be implemented . This repository has has a simple custom provisioning handler which achieve this by extending the DefaultProvisioningHandler [1].
 
 # Build, Deploy & Run
 Build

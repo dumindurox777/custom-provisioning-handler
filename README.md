@@ -15,7 +15,7 @@ Copy and place the built JAR artifact from the /target/org.wso2.custom.handlers-
 Navigate to <IS_HOME>/repository/conf/deployment.toml and add the following configuration.
 
 [authentication.framework.extensions] 
-provisioning_handler="org.wso2.custom.handlers.CustomProvisioningHandler"
+provisioning_handler="org.wso2.custom.handlers.NewCustomProvisioningHandler"
 
 
 # Run

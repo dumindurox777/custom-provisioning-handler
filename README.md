@@ -21,4 +21,4 @@ provisioning_handler="org.wso2.custom.handlers.CustomProvisioningHandler"
 # Run
 Restart the server and test the JIT provisioning flow.
 
-[1]https://github.com/wso2/carbon-identity-framework/blob/master/components/authentication-framework/org.wso2.carbon.identity.application.authentication.framework/src/main/java/org/wso2/carbon/identity/application/authentication/framework/handler/provisioning/impl/DefaultProvisioningHandler.java#L416 [2]https://is.docs.wso2.com/en/5.10.0/learn/password-patterns/
+[1]https://github.com/wso2/carbon-identity-framework/blob/196c92bfa25dc4028f0c845046e9dd9869745a1b/components/authentication-framework/org.wso2.carbon.identity.application.authentication.framework/src/main/java/org/wso2/carbon/identity/application/authentication/framework/handler/provisioning/impl/DefaultProvisioningHandler.java#L91
